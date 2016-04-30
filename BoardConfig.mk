@@ -37,7 +37,10 @@ TARGET_KERNEL_CONFIG := titan_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10444800
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 10526720
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 10526720
+#ISSUE TODO
+#+/home/exodus/dev/out/target/product/titan/recovery.img maxsize=10585344 blocksize=135168 total=10774528 reserve=270336
+#error: +/home/exodus/dev/out/target/product/titan/recovery.img too large (10774528 > [10855680 - 270336])
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1157627904
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 5912772608
 
