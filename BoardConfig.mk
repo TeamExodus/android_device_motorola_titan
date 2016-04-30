@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/motorola/titan
 
+# Turn off dexpre opt for titan
+WITH_DEXPREOPT := false
+
 # Vendor Unification Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
